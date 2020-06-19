@@ -15,7 +15,7 @@
 body{
 background-color: #ccc;
 }
-.container{
+.container-fluid{
 display: flex;
     justify-content: space-around;}
 </style>
@@ -23,7 +23,7 @@ display: flex;
 <body>
 
 <div class="jumbotron jumbotron-fluid">
-  <div class="container">
+  <div class="container-fluid">
     <h1 class="display-4" style="text-align: center;">Welcome to Employee Application</h1>
   <form action="logout" method="get">
  		<input type="submit" class="btn btn-danger" value="Logout">
